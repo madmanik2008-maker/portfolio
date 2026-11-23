@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manikandan M | Geospatial Scientist Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="logo">Manikandan<span>.GIS</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#achievements">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="badge">B.Sc. Geography • Coimbatore, Tamil Nadu, India</span>
+        <h1>Hi, I'm <span class="highlight">Manikandan M</span></h1>
+        <h2>Aspiring Geospatial Scientist &amp; Remote Sensing Analyst</h2>
+        <p>
+          Turning multi-spectral and SAR satellite observations into actionable spatial intelligence. 
+          Experienced with Sentinel-1 &amp; Sentinel-2 datasets, vegetation and water indices (NDVI, NDWI), 
+          and thematic cartography using QGIS, ArcMap, Google Earth Engine, and Python.
+        </p>
+        <div class="hero-buttons">
+          <a href="resume.pdf" download="resume.pdf" class="btn btn-primary">Download Resume (PDF)</a>
+          <a href="#projects" class="btn btn-outline">Explore Projects</a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/madmanik2008-maker" target="_blank" rel="noopener">GitHub</a>
+          <span>•</span>
+          <a href="https://www.linkedin.com/in/manikandan-m-mk" target="_blank" rel="noopener">LinkedIn</a>
+          <span>•</span>
+          <a href="mailto:manikandan.murali.08@gmail.com">Email</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="terminal-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="terminal-title">spatial_profile.py</span>
+        </div>
+        <pre class="terminal-body"><code><span class="kw">class</span> <span class="cls">GeospatialScientist</span>:
+    <span class="kw">def</span> <span class="fn">__init__</span>(self):
+        self.name = <span class="str">"Manikandan M"</span>
+        self.location = <span class="str">"Coimbatore, Tamil Nadu, India"</span>
+        self.degree = <span class="str">"B.Sc. Geography (2025-2028)"</span>
+        self.sensors = [<span class="str">"Sentinel-1 SAR"</span>, <span class="str">"Sentinel-2 Optical"</span>]
+        self.indices = [<span class="str">"NDVI"</span>, <span class="str">"NDWI"</span>, <span class="str">"VV/VH Polarizations"</span>]
+        self.stack = [<span class="str">"QGIS"</span>, <span class="str">"ArcMap"</span>, <span class="str">"GEE"</span>, <span class="str">"Python"</span>]</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT & EDUCATION -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About &amp; Education</h2>
+      <div class="about-grid">
+        <div class="card">
+          <h3>Career Objective</h3>
+          <p>
+            Aspiring Geospatial Scientist and B.Sc. Geography undergraduate with hands-on experience in GIS, 
+            Multi-Spectral &amp; SAR Remote Sensing, and Spatial Data Analysis. Skilled in processing Sentinel-1 
+            and Sentinel-2 satellite datasets and building publication-grade thematic cartographic outputs.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Education</h3>
+          <p class="edu-degree">Bachelor of Science (B.Sc.) in Geography</p>
+          <p class="edu-inst">Government Arts College (Autonomous), Coimbatore</p>
+          <p class="edu-meta">Affiliated to Bharathidasan University • 2025 – 2028</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECHNICAL SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>GIS Software</h3>
+          <div class="tags">
+            <span>QGIS</span>
+            <span>ArcMap (ArcGIS)</span>
+            <span>Google Earth Engine (GEE)</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Remote Sensing</h3>
+          <div class="tags">
+            <span>Sentinel-1 (SAR - VV, VH)</span>
+            <span>Sentinel-2 (Optical - NDVI, NDWI)</span>
+            <span>Electromagnetic Spectrum Analysis</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Programming &amp; Databases</h3>
+          <div class="tags">
+            <span>Python</span>
+            <span>Microsoft Access</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Data &amp; Office Tools</h3>
+          <div class="tags">
+            <span>Microsoft Excel (Data Analysis)</span>
+            <span>MS Office Suite</span>
+            <span>Cartographic Layout Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="projects-header">
+        <h2 class="section-title">Geospatial Projects</h2>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="remote-sensing">Remote Sensing</button>
+          <button class="filter-btn" data-filter="cartography">Cartography</button>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card" data-category="remote-sensing">
+          <div class="project-top">
+            <span class="status-badge ongoing">Ongoing</span>
+            <span class="project-year">2026 – Present</span>
+          </div>
+          <h3>Multi-Sensor Crop Classification &amp; Monitoring</h3>
+          <p>
+            Developing an agricultural monitoring workflow integrating Sentinel-1 SAR (VV/VH backscatter) and Sentinel-2 
+            optical imagery to classify crop types across cloud-affected growing seasons, extracting temporal NDVI &amp; NDWI 
+            signatures in Google Earth Engine and structuring datasets in Python.
+          </p>
+          <div class="tags">
+            <span>Sentinel-1</span>
+            <span>Sentinel-2</span>
+            <span>GEE</span>
+            <span>Python</span>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card" data-category="cartography">
+          <div class="project-top">
+            <span class="status-badge award">Best Entry • GeoVista 2026</span>
+            <span class="project-year">Sept 2026</span>
+          </div>
+          <h3>Thematic Cartographic Mapping &amp; Spatial Report</h3>
+          <p>
+            Designed and produced a publication-grade thematic map layout incorporating standardized cartographic elements 
+            (scale bar, north arrow, legend, and coordinate grid), paired with a comprehensive spatial interpretation report.
+          </p>
+          <div class="tags">
+            <span>QGIS</span>
+            <span>ArcMap</span>
+            <span>Spatial Analysis</span>
+          </div>
+          <div class="project-actions">
+            <button class="btn-link" onclick="openModal('map.jpg', 'Thematic Cartographic Map Output')">Preview Map (map.jpg)</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS & TRAINING -->
+  <section id="achievements" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Certifications &amp; Training</h2>
+      <div class="cert-list">
+        <div class="honor-card">
+          <div class="honor-icon">🏆</div>
+          <div>
+            <h3>GeoVista 2026 National Conference Cartographic Design Certificate</h3>
+            <p class="honor-org">Certificate of Merit — Best Entry in CartoCrafters '26 (Talent Hunt 2026)</p>
+            <p class="honor-meta">Central University of Tamil Nadu, Thiruvarur • Sept 2026</p>
+          </div>
+        </div>
+        <div class="honor-card">
+          <div class="honor-icon">🛰️</div>
+          <div>
+            <h3>Bharatiya Antariksh Hackathon Certificate</h3>
+            <p class="honor-org">ISRO Space Technology &amp; Geospatial Innovation Challenge</p>
+            <p class="honor-meta">2026</p>
+          </div>
+        </div>
+        <div class="honor-card">
+          <div class="honor-icon">🌍</div>
+          <div>
+            <h3>National-Level Webinar on "Usage of GIS and Remote Sensing in Disaster Management"</h3>
+            <p class="honor-org">Department of Geography, Biswanath College, Assam</p>
+            <p class="honor-meta">Certificate of Participation • 2026</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact-box">
+      <h2>Connect for Geospatial Research &amp; Collaboration</h2>
+      <p>Coimbatore, Tamil Nadu, India • Open to GIS, Remote Sensing, and Spatial Data Science opportunities.</p>
+      <div class="contact-links">
+        <a href="mailto:manikandan.murali.08@gmail.com" class="btn btn-primary">manikandan.murali.08@gmail.com</a>
+        <a href="tel:+916382420797" class="btn btn-outline">+91 6382420797</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Manikandan M • Geospatial Scientist Portfolio • Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <!-- IMAGE PREVIEW MODAL -->
+  <div id="mapModal" class="modal" onclick="closeModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h3 id="modalTitle">Map Preview</h3>
+      <img id="modalImg" src="" alt="Cartographic Map Output" />
+      <p class="modal-hint">Make sure your map image is saved as <code>map.jpg</code> in the same repository folder.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
